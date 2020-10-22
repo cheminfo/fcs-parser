@@ -1,11 +1,15 @@
-# fcs
+# Flow Cytometry Standard
 
 [![NPM version][npm-image]][npm-url]
-[![build status][ci-image]][ci-url]
 [![Test coverage][codecov-image]][codecov-url]
 [![npm download][download-image]][download-url]
 
-read FCS files.
+Read encoded data from flow cytometry experiments.
+
+Available versions:
+- 2.0
+- 3.0
+- 3.1
 
 ## Installation
 
@@ -14,13 +18,21 @@ read FCS files.
 ## Usage
 
 ```js
-import library from 'fcs';
+import { readFileSync } from 'fs';
 
-const result = library(args);
-// result is ...
+import { parseFCS } from 'fcs';
+
+const buffer = readFileSync('pathToFile');
+let parsed = parseFCS(buffer);
+console.log(parsed);
 ```
 
 ## [API Documentation](https://cheminfo.github.io/fcs/)
+
+## References
+* Spidlen, J., Moore, W., Parks, D., Goldberg, M., Bray, C., Bierre, P., ... & Lefebvre, R. (2010). Data file standard for flow cytometry, version FCS 3.1. Cytometry Part A: The Journal of the International Society for Advancement of Cytometry, 77(1), 97-100.
+
+* [Wikipedia](https://en.wikipedia.org/wiki/Flow_Cytometry_Standard).
 
 ## License
 
