@@ -24,6 +24,7 @@ import { parseFCS } from 'fcs-parser';
 
 const buffer = readFileSync('pathToFile');
 let parsed = parseFCS(buffer);
+
 console.log(parsed);
 ```
 
