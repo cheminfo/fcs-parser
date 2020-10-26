@@ -33,7 +33,7 @@ console.log(parsed);
 ## References
 * Spidlen, J., Moore, W., Parks, D., Goldberg, M., Bray, C., Bierre, P., ... & Lefebvre, R. (2010). Data file standard for flow cytometry, version FCS 3.1. Cytometry Part A: The Journal of the International Society for Advancement of Cytometry, 77(1), 97-100.
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Flow_Cytometry_Standard).
+* [https://en.wikipedia.org/wiki/Flow_Cytometry_Standard](https://en.wikipedia.org/wiki/Flow_Cytometry_Standard).
 
 ## License
 
