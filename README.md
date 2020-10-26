@@ -13,21 +13,21 @@ Available versions:
 
 ## Installation
 
-`$ npm i fcs`
+`$ npm i fcs-parser`
 
 ## Usage
 
 ```js
 import { readFileSync } from 'fs';
 
-import { parseFCS } from 'fcs';
+import { parseFCS } from 'fcs-parser';
 
 const buffer = readFileSync('pathToFile');
 let parsed = parseFCS(buffer);
 console.log(parsed);
 ```
 
-## [API Documentation](https://cheminfo.github.io/fcs/)
+## [API Documentation](https://cheminfo.github.io/fcs-parser/)
 
 ## References
 * Spidlen, J., Moore, W., Parks, D., Goldberg, M., Bray, C., Bierre, P., ... & Lefebvre, R. (2010). Data file standard for flow cytometry, version FCS 3.1. Cytometry Part A: The Journal of the International Society for Advancement of Cytometry, 77(1), 97-100.
@@ -38,11 +38,11 @@ console.log(parsed);
 
 [MIT](./LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/fcs.svg
-[npm-url]: https://www.npmjs.com/package/fcs
-[ci-image]: https://github.com/cheminfo/fcs/workflows/Node.js%20CI/badge.svg?branch=master
-[ci-url]: https://github.com/cheminfo/fcs/actions?query=workflow%3A%22Node.js+CI%22
-[codecov-image]: https://img.shields.io/codecov/c/github/cheminfo/fcs.svg
-[codecov-url]: https://codecov.io/gh/cheminfo/fcs
-[download-image]: https://img.shields.io/npm/dm/fcs.svg
-[download-url]: https://www.npmjs.com/package/fcs
+[npm-image]: https://img.shields.io/npm/v/fcs-parser.svg
+[npm-url]: https://www.npmjs.com/package/fcs-parser
+[ci-image]: https://github.com/cheminfo/fcs-parser/workflows/Node.js%20CI/badge.svg?branch=master
+[ci-url]: https://github.com/cheminfo/fcs-parser/actions?query=workflow%3A%22Node.js+CI%22
+[codecov-image]: https://img.shields.io/codecov/c/github/cheminfo/fcs-parser.svg
+[codecov-url]: https://codecov.io/gh/cheminfo/fcs-parser
+[download-image]: https://img.shields.io/npm/dm/fcs-parser.svg
+[download-url]: https://www.npmjs.com/package/fcs-parser

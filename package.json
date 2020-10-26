@@ -1,7 +1,7 @@
 {
-  "name": "fcs",
+  "name": "fcs-parser",
   "version": "0.0.0",
-  "description": "read FCS files",
+  "description": "Parse flow cytometry standard (FCS) files",
   "main": "lib/index.js",
   "module": "src/index.js",
   "files": [
