@@ -9,6 +9,7 @@
     "src"
   ],
   "scripts": {
+    "build": "rollup -c && cheminfo-build --root FCSParser",
     "eslint": "eslint src",
     "eslint-fix": "npm run eslint -- --fix",
     "prepublishOnly": "rollup -c",
@@ -40,6 +41,7 @@
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.12.1",
     "@types/jest": "^26.0.15",
+    "cheminfo-build": "^1.1.8",
     "eslint": "^7.12.0",
     "eslint-config-cheminfo": "^5.2.2",
     "eslint-plugin-import": "^2.22.1",
@@ -50,7 +52,6 @@
     "rollup": "^2.32.1"
   },
   "dependencies": {
-    "cheminfo-build": "^1.1.8",
     "fs": "0.0.1-security",
     "iobuffer": "^5.0.2",
     "path": "^0.12.7"
